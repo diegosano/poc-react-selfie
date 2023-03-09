@@ -17,7 +17,7 @@ export function Example3() {
 
   return (
     <S.Container>
-      <Header />
+      <Header title="Using input capture property" />
 
       {dataUri ? (
         <ImagePreview dataUri={dataUri} />

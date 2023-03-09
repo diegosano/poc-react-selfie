@@ -60,7 +60,7 @@ export function Example4() {
 
   return (
     <S.Container>
-      <Header />
+      <Header title="Using Navigator Interface (Web API)" />
 
       {dataUri ? (
         <ImagePreview dataUri={dataUri} />

@@ -18,7 +18,7 @@ export function Example1() {
 
   return (
     <S.Container>
-      <Header />
+      <Header title="react-html5-camera-photo" />
 
       {dataUri ? (
         <ImagePreview dataUri={dataUri} />

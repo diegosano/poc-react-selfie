@@ -17,7 +17,7 @@ export function Example2() {
 
   return (
     <S.Container>
-      <Header />
+      <Header title="react-webcam" />
 
       {dataUri ? (
         <ImagePreview dataUri={dataUri} />
