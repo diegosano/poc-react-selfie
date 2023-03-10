@@ -12,7 +12,6 @@ export function Example1() {
   const [dataUri, setDataUri] = useState('');
 
   function handleTakePhotoAnimationDone(dataUri) {
-    console.log('takePhoto');
     setDataUri(dataUri);
   }
 
@@ -24,8 +23,6 @@ export function Example1() {
         <ImagePreview dataUri={dataUri} />
       ) : (
         <S.CameraContainer>
-          {/* <S.Overlay /> */}
-
           <Camera
             onTakePhotoAnimationDone={handleTakePhotoAnimationDone}
             idealFacingMode={FACING_MODES.USER}
